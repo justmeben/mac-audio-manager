@@ -12,7 +12,7 @@ No kernel extensions. No virtual audio drivers. No background daemons. Just Swif
 
 **The Bluetooth problem.** Bluetooth headphones can't do high-quality stereo (A2DP) and microphone capture (HFP/SCO) at the same time. The moment macOS decides to use your headset's mic — often just because it auto-selected it as the input device — the *entire* link drops to 16 kHz mono. Music suddenly sounds like a phone call from 1998, and nothing in the Sound settings tells you why. AudioManager shows you exactly which profile each Bluetooth device is in, and switches modes with one click.
 
-**The mixer problem.** macOS has one output device and one volume for everything. There's no built-in way to make your browser quieter than your game, or send a music player to the speakers while everything else stays on the headphones. AudioManager gives every app its own volume slider and output-device picker.
+**The mixer problem.** macOS has one output device and one volume for everything. There's no built-in way to make your browser quieter than your game, or send a music player to the speakers while everything else stays on the headphones. AudioManager gives every app its own volume slider and output-device picker — in essence, the per-app volume mixer Windows has had built in for years, brought to macOS.
 
 ## Features
 
