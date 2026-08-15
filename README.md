@@ -40,8 +40,8 @@ No kernel extensions. No virtual audio drivers. No background daemons. Just Swif
 Build from source (requires Xcode command-line tools, macOS 14.4+):
 
 ```bash
-git clone https://github.com/justmeben/AudioManager.git
-cd AudioManager
+git clone https://github.com/justmeben/mac-audio-manager.git
+cd mac-audio-manager
 ./build.sh
 open dist/AudioManager.app
 ```
